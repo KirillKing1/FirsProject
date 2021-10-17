@@ -21,6 +21,7 @@ public class Cycle {
         String[] ms = {"a","b","c","d"};
         for (String o:ms) {
             System.out.println(o+" ");
+
         }
     }
 
