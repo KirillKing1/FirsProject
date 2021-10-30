@@ -36,13 +36,27 @@ public class Cycle {
 //          System.out.println("hello your number: "+ i);
 //      }
 //            while (i == 1);
-        System.out.println("*");
-        for (int j = 0; j < 5; j++) {
-            for (int i = 0; i<10;i ++) {
-                System.out.print(" * ");
+//        System.out.println("*");
+//        for (int j = 0; j < 5; j++) {
+//            for (int i = 0; i<10;i ++) {
+//                System.out.print(" * ");
+//            }
+//            System.out.println();
+//        }
+        for (int i = 0; i < 6 ; i++) {
+            for (int j = 0; j < 6 ; j++) {
+                if (j < 3){
+                    System.out.println("* ");
+                }
+                else {
+
+                    System.out.print("0 ");
+                }
             }
             System.out.println();
+
         }
-    }
+
+   }
 
 }
