@@ -10,6 +10,7 @@ public class hw1 {
         else if (a % 4 == 0 && a % 100 > 0)
             System.out.println("количество дней в году: 366");
 
+
         else if (a % 100 == 0)
             System.out.println("количество дней в году: 365");
 
